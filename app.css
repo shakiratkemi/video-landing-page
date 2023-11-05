@@ -107,7 +107,6 @@ body {
   border: 1px solid rgb(27, 28, 37);
   padding: 5px;
   opacity: 0.3;
-  width: 50%;
 }
 
 .first-content > div:nth-child(3) {
@@ -649,27 +648,32 @@ body {
   font-weight: lighter;
 }
 
-/*@media only screen and (max-width: 400px) { 
-.create-container {
-  display: flex;
-  flex-direction: column;
-  gap: 20px;
-}
+@media only screen and (max-width: 600px) {
+  .create-container {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+  }
 
-.inspiration {
-  width: 100%;
-}
+  .inspiration {
+    width: 100%;
+  }
 
-.first-content > div:nth-child(3) {
-  font-size: 20px;
-}
+  .first-content > div:nth-child(3) {
+    font-size: 20px;
+  }
 
-.second-content {
-  display: flex;
-}
+  .second-content {
+    display: flex;
+  }
 
-.design {
-  display: flex;
-  flex: 1;
+  .design {
+    display: flex;
+    flex: 1;
+  }
+
+  .last-content-container {
+    display: flex;
+    font-size: 5px;
+  }
 }
-} */
